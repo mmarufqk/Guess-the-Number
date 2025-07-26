@@ -10,17 +10,17 @@ body {
 
 .game-container {
     background-color: #fff;
-    padding: 40px; /* Increased padding for better spacing */
+    padding: 40px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 80%; /* Adjusted max-width for responsiveness */
+    max-width: 80%;
     width: 100%;
-    max-width: 600px; /* Max width for larger screens */
+    max-width: 600px; 
 }
 
 h1 {
-    font-size: 28px; /* Increased font size for heading */
+    font-size: 28px; 
     color: #333;
     margin-bottom: 20px;
 }
@@ -32,11 +32,11 @@ p {
 }
 
 input[type="number"], button {
-    padding: 16px 24px; /* Increased padding for better touchability */
-    font-size: 18px; /* Increased font size for inputs and buttons */
+    padding: 16px 24px; 
+    font-size: 18px; 
     border: 2px solid #ccc;
     border-radius: 4px;
-    margin: 20px 0; /* Increased margin for better spacing */
+    margin: 20px 0; 
     width: calc(100% - 48px);
     max-width: 400px;
     box-sizing: border-box;
@@ -56,7 +56,7 @@ button:hover {
 }
 
 #message {
-    margin-top: 30px; /* Increased margin-top for better spacing */
+    margin-top: 30px;
     font-size: 18px;
     font-weight: bold;
     color: #333;
